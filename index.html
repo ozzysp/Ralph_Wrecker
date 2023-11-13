@@ -5,18 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&
-    family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&
+display=swap" rel="stylesheet">
+
 <!-- Styles links -->
     <link rel="stylesheet" href="/src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
 
 </head>
 <body>
+
+    <div class="container">
+        <div class="menu">
+            <div class="menu-time"></div>
+            <h2 style="color: red;">Time Left</h2>
+                <h2>0</h2>
+            <div class="menu-score" style="color: red;">Your Score</div>
+                <h2>0</h2>
+            <div class="menu-lives"></div>
+                <img src="" />
+                <h2>x3</h2>
+
+        </div>
+
+        <div class="panel">
+            <panel-row>
+                <div class="square" id="1"></div>
+                <div class="square" id="2"></div>
+                <div class="square" id="3"></div>
+            </panel-row>
+
+            <panel-row>
+                <div class="square" id="4"></div>
+                <div class="square" id="5"></div>
+                <div class="square" id="6"></div>
+            </panel-row>
+
+            <panel-row>
+                <div class="square" id="7"></div>
+                <div class="square" id="8"></div>
+                <div class="square" id="9"></div>
+            </panel-row>
+    </div>
+
     
 
+    </div>
 <!-- JavaScript Engine -->
     <script defer src="src/js/engine.js"></script>
 

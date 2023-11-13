@@ -2,7 +2,10 @@
     margin: 0;
     padding: auto;
     box-sizing: border-box;
-    font-family: "Bebas Neue", sans-serif;
-    font-family: 'Roboto', cursive;
 }
 
+body {
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  
